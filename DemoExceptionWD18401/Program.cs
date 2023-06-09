@@ -57,7 +57,7 @@ namespace DemoExceptionWD18401
 
             if (n < 0 || n > 10)
             {
-                throw new ScoreException("Exception: Incorrect format :Diem tu 0 den 10");
+                throw new ScoreException("Exception: Incorrect format :.Diem tu 0 den 10");
             }
             return n;
 
